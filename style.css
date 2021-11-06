@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/*le header*/
+header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 100;
+    background-color: #fff;
+}
+.banner{
+    width: 100%;
+    background-color: #f4f4f4;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.banner-text{
+    font-family: 'montserrat';
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 2;
+    color: #676767;
+    margin-top: 0px;
+}
+.social-media-connexion{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -12px;
+}
+.social-media-icon{
+    margin-left: 40px;
+}
+i{
+    margin: 0 5px 0 5px;
+    font-size: 11px;
+    color: #005587;
+}
+.connexion-setting{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.connexion-img{
+    width: 30px;
+    height: 15px;
+    margin-right: 10px;
+}
+.connexion-part{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.connexion-text{
+    text-transform: uppercase;
+    font-family: 'montserrat';
+    color: #005587;
+    font-size: 12px;
+    font-weight: bold;
+}
+.navigation-logo{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    background-color:#005587 ;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.logo{
+    width: 130px;
+    margin-left: 40px;
+}
+nav ul{
+    display: flex;
+    margin-left: 25px;
+}
+ul{
+    padding-left: 0px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    list-style: none;
+}
+li{
+    font-size: 15px;
+}
+li a{
+    color: #fff;
+    text-decoration: none;
+    margin:10px;
+}
+.banner-logo-2{
+    width: 100%;
+    text-align: center;
+}
+.logo-2{
+    margin: 50px 0 50px 0;
+}
+.banner-img-1{
+    border: 1px solid black;
+    background-image: url(images/img1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 750px;
+    position: relative;
+    top: 0;
+    z-index: -100;
+}
