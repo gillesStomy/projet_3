@@ -107,14 +107,57 @@ li a{
     margin: 50px 0 50px 0;
 }
 .banner-img-1{
-    border: 1px solid black;
     background-image: url(images/img1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
-    height: 750px;
+    height: 800px;
     position: relative;
     top: 0;
     z-index: -100;
+}
+
+/*Section video*/
+.video{
+    width: 100%;
+    text-align: center;
+}
+.video-container{
+    max-width: 900px;
+    margin: 50px auto;
+}
+.video-container-text{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-bottom: 70px;
+}
+.titre{
+    text-align: left;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: #005587;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+}
+.paragraph{
+    margin-top: 8px;
+    margin-left: 15px;
+}
+.paragraph-1, .paragraph-2{
+    text-align: left;
+    color: #666666;
+}
+.paragraph-1{
+    font-size: 16px;
+    font-family: 'poppins';
+}
+.paragraph-2{
+    font-family: 'roboto';
+    font-style: normal;
+    font-size: 13px;
+    word-spacing: 5px;
+    line-height: 1.5;
 }
